@@ -37,7 +37,7 @@ public class ClientChat{
 				serverMessage = (String)in.readObject();
 				System.out.println("server==>"+serverMessage);
 				if(clientMessage.equalsIgnoreCase("bye")){
-
+					System.out.println("exiting");
 					System.exit(0);
 
 
